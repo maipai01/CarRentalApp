@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import TopMenu from "@/components/TopMenu";
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/app/api/auth/[...nextauth]/authOptions";
 import NextAuthProvider from "@/providers/NextAuthProvider";
 import ReduxProvider from "@/redux/ReduxProvider";
 
